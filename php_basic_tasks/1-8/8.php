@@ -1,0 +1,18 @@
+<?php
+
+echo '8.php: ';
+include "2.php";
+
+if ($age > 18 && $age < 59) {
+    echo 'Вам еще работать и работать';
+}
+elseif ($age > 59) {
+    echo 'Вам пора на пенсию';
+}
+elseif ($age > 0 && $age <=17) {
+    echo 'Вам еще рано работать';
+}
+else{
+    echo 'Неизвестный возраст';
+}
+echo '<br>';
